@@ -4,18 +4,21 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
+    "develop": "config-sync export --yes && strapi develop ",
+    "start": "config-sync import --yes && strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "cs": "config-sync"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "pg": "8.8.0"
+    "@strapi/plugin-graphql": "^4.9.0",
+    "@strapi/plugin-i18n": "4.9.0",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/provider-upload-cloudinary": "4.9.0",
+    "@strapi/strapi": "4.9.0",
+    "pg": "8.8.0",
+    "strapi-plugin-config-sync": "^1.1.1",
+    "strapi-tiptap-editor": "^0.9.12"
   },
   "author": {
     "name": "A Strapi developer"
