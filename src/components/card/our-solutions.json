@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_card_our_solutions",
+  "info": {
+    "displayName": "our solutions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

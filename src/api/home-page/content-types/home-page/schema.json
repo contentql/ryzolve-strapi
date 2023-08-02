@@ -4,20 +4,31 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home Page"
+    "displayName": "Home Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "default": "Improve Your Agency's Efficiency & Compliance"
+    "hero": {
+      "displayName": "title-subtitle",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.title-subtitle"
     },
-    "subtitle": {
-      "type": "string",
-      "default": "Provider Management Software To Help PAS Agencies Be More Efficient"
+    "services": {
+      "displayName": "list of services",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list-of-services"
+    },
+    "ourSolutions": {
+      "displayName": "our solutions",
+      "type": "component",
+      "repeatable": false,
+      "component": "card.our-solutions"
     }
   }
 }
