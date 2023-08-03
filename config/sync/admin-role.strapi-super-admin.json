@@ -8,8 +8,13 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "title",
-          "subtitle"
+          "hero.title",
+          "hero.subtitle",
+          "services.name",
+          "services.description",
+          "services.hoverDescription",
+          "ourSolutions.title",
+          "ourSolutions.description"
         ]
       },
       "conditions": []
@@ -31,8 +36,13 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "title",
-          "subtitle"
+          "hero.title",
+          "hero.subtitle",
+          "services.name",
+          "services.description",
+          "services.hoverDescription",
+          "ourSolutions.title",
+          "ourSolutions.description"
         ]
       },
       "conditions": []
@@ -42,8 +52,13 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "title",
-          "subtitle"
+          "hero.title",
+          "hero.subtitle",
+          "services.name",
+          "services.description",
+          "services.hoverDescription",
+          "ourSolutions.title",
+          "ourSolutions.description"
         ]
       },
       "conditions": []

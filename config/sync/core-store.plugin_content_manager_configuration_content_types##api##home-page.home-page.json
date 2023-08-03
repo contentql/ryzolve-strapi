@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "title",
-      "defaultSortBy": "title",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,32 +20,46 @@
           "sortable": true
         }
       },
-      "title": {
+      "hero": {
         "edit": {
-          "label": "title",
+          "label": "hero",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "title",
-          "searchable": true,
-          "sortable": true
+          "label": "hero",
+          "searchable": false,
+          "sortable": false
         }
       },
-      "subtitle": {
+      "services": {
         "edit": {
-          "label": "subtitle",
+          "label": "services",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "subtitle",
-          "searchable": true,
-          "sortable": true
+          "label": "services",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ourSolutions": {
+        "edit": {
+          "label": "ourSolutions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ourSolutions",
+          "searchable": false,
+          "sortable": false
         }
       },
       "createdAt": {
@@ -80,19 +94,27 @@
     "layouts": {
       "list": [
         "id",
-        "title",
-        "subtitle",
-        "createdAt"
+        "createdAt",
+        "hero",
+        "services"
       ],
       "edit": [
         [
           {
-            "name": "title",
-            "size": 6
-          },
+            "name": "hero",
+            "size": 12
+          }
+        ],
+        [
           {
-            "name": "subtitle",
-            "size": 6
+            "name": "services",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ourSolutions",
+            "size": 12
           }
         ]
       ]
