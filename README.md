@@ -19,11 +19,21 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 - Strapi
 - Postgres
 
-## 💁‍♀️ How to use
+# 💁‍♀️ How to use
 
-- Click the Railway button 👆
-- Add the environment variables
-  - If you do not add the Cloudinary related environment variables, your images/files will not be persisted between deploys.
+## Development Setup
+
+1. Instal Nodejs with a minimum version of 16
+2. Install Postgres server locally (v14) and create a database named `postgres` with a username `strapi` and password `password` and start it on port 5432
+
+```
+CREATE USER strapi WITH ENCRYPTED PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE postgres TO strapi;
+```
+
+3. Clone the repository
+4. yarn to install all the dependencies
+5. yarn develop to build and start Strapi for development
 
 ## 📝 Notes
 
