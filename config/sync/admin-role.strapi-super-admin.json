@@ -14,7 +14,8 @@
           "services.description",
           "services.hoverDescription",
           "ourSolutions.title",
-          "ourSolutions.description"
+          "ourSolutions.description",
+          "ourSolutions.personalAgency.item"
         ]
       },
       "conditions": []
@@ -42,7 +43,8 @@
           "services.description",
           "services.hoverDescription",
           "ourSolutions.title",
-          "ourSolutions.description"
+          "ourSolutions.description",
+          "ourSolutions.personalAgency.item"
         ]
       },
       "conditions": []
@@ -58,7 +60,8 @@
           "services.description",
           "services.hoverDescription",
           "ourSolutions.title",
-          "ourSolutions.description"
+          "ourSolutions.description",
+          "ourSolutions.personalAgency.item"
         ]
       },
       "conditions": []

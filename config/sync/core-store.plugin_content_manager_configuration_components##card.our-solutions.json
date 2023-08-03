@@ -47,13 +47,28 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "personalAgency": {
+        "edit": {
+          "label": "personalAgency",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "personalAgency",
+          "searchable": false,
+          "sortable": false
+        }
       }
     },
     "layouts": {
       "list": [
         "id",
         "title",
-        "description"
+        "description",
+        "personalAgency"
       ],
       "edit": [
         [
@@ -64,6 +79,12 @@
           {
             "name": "description",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "personalAgency",
+            "size": 12
           }
         ]
       ]
