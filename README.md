@@ -39,3 +39,4 @@ GRANT ALL PRIVILEGES ON DATABASE postgres TO strapi;
 
 - After your app is deployed, visit the `/admin` endpoint to create your admin user.
 - Railway's filesystem is ephemeral which is why any changes to the filesystem are not persisted between deploys. This is why, this example uses Cloudinary for storage.
+- When ever you push the code, ensure `yarn cs export --yes` command was used before writing your commit message.
