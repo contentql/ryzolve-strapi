@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "home_pages",
+  "collectionName": "compliance_regulations",
   "info": {
-    "singularName": "home-page",
-    "pluralName": "home-pages",
-    "displayName": "Home Page",
+    "singularName": "compliance-regulation",
+    "pluralName": "compliance-regulations",
+    "displayName": "Compliance Regulation",
     "description": ""
   },
   "options": {
@@ -12,43 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
-      "displayName": "title-subtitle",
+    "Hero": {
       "type": "component",
       "repeatable": false,
       "component": "hero.title-subtitle"
     },
-    "services": {
-      "displayName": "list of services",
+    "Services": {
       "type": "component",
       "repeatable": true,
       "component": "services.list-of-services"
     },
-    "ourSolutions": {
-      "displayName": "our solutions",
+    "Solutions": {
       "type": "component",
       "repeatable": false,
       "component": "card.our-solutions"
     },
-    "ourStrategy": {
-      "type": "component",
-      "repeatable": false,
-      "component": "strategy.strategy"
-    },
-    "pricing": {
-      "type": "component",
-      "repeatable": true,
-      "component": "pricing.pricing"
-    },
-    "aboutUs": {
+    "About": {
       "type": "component",
       "repeatable": false,
       "component": "about.about"
-    },
-    "howItWorks": {
-      "type": "component",
-      "repeatable": false,
-      "component": "how-it-works.how-it-works"
     },
     "Testimonial": {
       "type": "component",

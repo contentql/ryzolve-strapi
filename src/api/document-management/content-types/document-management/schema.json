@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "home_pages",
+  "collectionName": "document_managements",
   "info": {
-    "singularName": "home-page",
-    "pluralName": "home-pages",
-    "displayName": "Home Page",
+    "singularName": "document-management",
+    "pluralName": "document-managements",
+    "displayName": "Document Management",
     "description": ""
   },
   "options": {
@@ -13,42 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "hero": {
-      "displayName": "title-subtitle",
       "type": "component",
       "repeatable": false,
       "component": "hero.title-subtitle"
     },
     "services": {
-      "displayName": "list of services",
       "type": "component",
       "repeatable": true,
       "component": "services.list-of-services"
     },
-    "ourSolutions": {
-      "displayName": "our solutions",
+    "Solutions": {
       "type": "component",
       "repeatable": false,
       "component": "card.our-solutions"
     },
-    "ourStrategy": {
-      "type": "component",
-      "repeatable": false,
-      "component": "strategy.strategy"
-    },
-    "pricing": {
+    "About": {
       "type": "component",
       "repeatable": true,
-      "component": "pricing.pricing"
-    },
-    "aboutUs": {
-      "type": "component",
-      "repeatable": false,
       "component": "about.about"
-    },
-    "howItWorks": {
-      "type": "component",
-      "repeatable": false,
-      "component": "how-it-works.how-it-works"
     },
     "Testimonial": {
       "type": "component",

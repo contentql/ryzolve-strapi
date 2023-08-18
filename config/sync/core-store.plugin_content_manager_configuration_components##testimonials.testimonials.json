@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::services.list-of-services",
+  "key": "plugin_content_manager_configuration_components::testimonials.testimonials",
   "value": {
-    "uid": "services.list-of-services",
+    "uid": "testimonials.testimonials",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -34,30 +34,58 @@
           "sortable": true
         }
       },
-      "description": {
+      "review": {
         "edit": {
-          "label": "description",
+          "label": "review",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "description",
+          "label": "review",
           "searchable": true,
           "sortable": true
         }
       },
-      "hoverDescription": {
+      "designation": {
         "edit": {
-          "label": "hoverDescription",
+          "label": "designation",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "hoverDescription",
+          "label": "designation",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "company_name": {
+        "edit": {
+          "label": "company_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "company_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "rating": {
+        "edit": {
+          "label": "rating",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "rating",
           "searchable": true,
           "sortable": true
         }
@@ -67,8 +95,8 @@
       "list": [
         "id",
         "name",
-        "description",
-        "hoverDescription"
+        "review",
+        "designation"
       ],
       "edit": [
         [
@@ -77,13 +105,23 @@
             "size": 6
           },
           {
-            "name": "description",
+            "name": "review",
             "size": 6
           }
         ],
         [
           {
-            "name": "hoverDescription",
+            "name": "designation",
+            "size": 6
+          },
+          {
+            "name": "company_name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "rating",
             "size": 6
           }
         ]
