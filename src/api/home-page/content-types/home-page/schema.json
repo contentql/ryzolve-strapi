@@ -30,11 +30,6 @@
       "repeatable": false,
       "component": "card.our-solutions"
     },
-    "Testimonial": {
-      "type": "component",
-      "repeatable": true,
-      "component": "testimonials.testimonials"
-    },
     "ourStrategy": {
       "type": "component",
       "repeatable": false,
@@ -54,6 +49,11 @@
       "type": "component",
       "repeatable": false,
       "component": "how-it-works.how-it-works"
+    },
+    "Testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "testimonial-section.testimonial-section"
     }
   }
 }

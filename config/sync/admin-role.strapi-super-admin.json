@@ -5,6 +5,267 @@
   "permissions": [
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::claims-and-billing.claims-and-billing",
+      "properties": {
+        "fields": [
+          "Hero.title",
+          "Hero.subtitle",
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription",
+          "Testimonials.name",
+          "Testimonials.review",
+          "Testimonials.designation",
+          "Testimonials.company_name",
+          "Testimonials.rating",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::claims-and-billing.claims-and-billing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::claims-and-billing.claims-and-billing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::claims-and-billing.claims-and-billing",
+      "properties": {
+        "fields": [
+          "Hero.title",
+          "Hero.subtitle",
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription",
+          "Testimonials.name",
+          "Testimonials.review",
+          "Testimonials.designation",
+          "Testimonials.company_name",
+          "Testimonials.rating",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::claims-and-billing.claims-and-billing",
+      "properties": {
+        "fields": [
+          "Hero.title",
+          "Hero.subtitle",
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription",
+          "Testimonials.name",
+          "Testimonials.review",
+          "Testimonials.designation",
+          "Testimonials.company_name",
+          "Testimonials.rating",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::compliance-regulation.compliance-regulation",
+      "properties": {
+        "fields": [
+          "Hero.title",
+          "Hero.subtitle",
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "Testimonial.name",
+          "Testimonial.review",
+          "Testimonial.designation",
+          "Testimonial.company_name",
+          "Testimonial.rating",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::compliance-regulation.compliance-regulation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::compliance-regulation.compliance-regulation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::compliance-regulation.compliance-regulation",
+      "properties": {
+        "fields": [
+          "Hero.title",
+          "Hero.subtitle",
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "Testimonial.name",
+          "Testimonial.review",
+          "Testimonial.designation",
+          "Testimonial.company_name",
+          "Testimonial.rating",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::compliance-regulation.compliance-regulation",
+      "properties": {
+        "fields": [
+          "Hero.title",
+          "Hero.subtitle",
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "Testimonial.name",
+          "Testimonial.review",
+          "Testimonial.designation",
+          "Testimonial.company_name",
+          "Testimonial.rating",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::document-management.document-management",
+      "properties": {
+        "fields": [
+          "hero.title",
+          "hero.subtitle",
+          "services.name",
+          "services.description",
+          "services.hoverDescription",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "Testimonials.name",
+          "Testimonials.review",
+          "Testimonials.designation",
+          "Testimonials.company_name",
+          "Testimonials.rating",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::document-management.document-management",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::document-management.document-management",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::document-management.document-management",
+      "properties": {
+        "fields": [
+          "hero.title",
+          "hero.subtitle",
+          "services.name",
+          "services.description",
+          "services.hoverDescription",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "Testimonials.name",
+          "Testimonials.review",
+          "Testimonials.designation",
+          "Testimonials.company_name",
+          "Testimonials.rating",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::document-management.document-management",
+      "properties": {
+        "fields": [
+          "hero.title",
+          "hero.subtitle",
+          "services.name",
+          "services.description",
+          "services.hoverDescription",
+          "Solutions.title",
+          "Solutions.description",
+          "Solutions.personalAgency.item",
+          "Testimonials.name",
+          "Testimonials.review",
+          "Testimonials.designation",
+          "Testimonials.company_name",
+          "Testimonials.rating",
+          "About.title",
+          "About.description",
+          "About.aboutList.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
@@ -19,7 +280,24 @@
           "Testimonial.name",
           "Testimonial.review",
           "Testimonial.designation",
-          "Testimonial.company_name"
+          "Testimonial.company_name",
+          "Testimonial.rating",
+          "ourStrategy.title",
+          "ourStrategy.steps.title",
+          "ourStrategy.steps.strategy_step_list.item",
+          "ourStrategy.steps.strategy_step_image",
+          "pricing.title",
+          "pricing.plans.monthly_price",
+          "pricing.plans.yearly_price",
+          "pricing.plans.plan_name",
+          "pricing.plans.plan_features.item",
+          "aboutUs.title",
+          "aboutUs.description",
+          "aboutUs.aboutList.item",
+          "howItWorks.title",
+          "howItWorks.working_steps.name",
+          "howItWorks.working_steps.description",
+          "howItWorks.working_steps.hoverDescription"
         ]
       },
       "conditions": []
@@ -52,7 +330,24 @@
           "Testimonial.name",
           "Testimonial.review",
           "Testimonial.designation",
-          "Testimonial.company_name"
+          "Testimonial.company_name",
+          "Testimonial.rating",
+          "ourStrategy.title",
+          "ourStrategy.steps.title",
+          "ourStrategy.steps.strategy_step_list.item",
+          "ourStrategy.steps.strategy_step_image",
+          "pricing.title",
+          "pricing.plans.monthly_price",
+          "pricing.plans.yearly_price",
+          "pricing.plans.plan_name",
+          "pricing.plans.plan_features.item",
+          "aboutUs.title",
+          "aboutUs.description",
+          "aboutUs.aboutList.item",
+          "howItWorks.title",
+          "howItWorks.working_steps.name",
+          "howItWorks.working_steps.description",
+          "howItWorks.working_steps.hoverDescription"
         ]
       },
       "conditions": []
@@ -73,7 +368,24 @@
           "Testimonial.name",
           "Testimonial.review",
           "Testimonial.designation",
-          "Testimonial.company_name"
+          "Testimonial.company_name",
+          "Testimonial.rating",
+          "ourStrategy.title",
+          "ourStrategy.steps.title",
+          "ourStrategy.steps.strategy_step_list.item",
+          "ourStrategy.steps.strategy_step_image",
+          "pricing.title",
+          "pricing.plans.monthly_price",
+          "pricing.plans.yearly_price",
+          "pricing.plans.plan_name",
+          "pricing.plans.plan_features.item",
+          "aboutUs.title",
+          "aboutUs.description",
+          "aboutUs.aboutList.item",
+          "howItWorks.title",
+          "howItWorks.working_steps.name",
+          "howItWorks.working_steps.description",
+          "howItWorks.working_steps.hoverDescription"
         ]
       },
       "conditions": []

@@ -1,14 +1,11 @@
 {
   "collectionName": "components_pricing_details_pricing_details",
   "info": {
-    "displayName": "Pricing Details"
+    "displayName": "Pricing Details",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "monthly_price": {
       "type": "integer",
       "required": true

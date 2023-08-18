@@ -4,7 +4,8 @@
   "info": {
     "singularName": "claims-and-billing",
     "pluralName": "claims-and-billings",
-    "displayName": "Claims And Billing"
+    "displayName": "Claims And Billing",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,11 +22,6 @@
       "repeatable": true,
       "component": "services.list-of-services"
     },
-    "Testimonials": {
-      "type": "component",
-      "repeatable": true,
-      "component": "testimonials.testimonials"
-    },
     "Solutions": {
       "type": "component",
       "repeatable": false,
@@ -35,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "about.about"
+    },
+    "Testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "testimonial-section.testimonial-section"
     }
   }
 }
