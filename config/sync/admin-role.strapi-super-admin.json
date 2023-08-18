@@ -13,17 +13,19 @@
           "Services.name",
           "Services.description",
           "Services.hoverDescription",
-          "Testimonials.name",
-          "Testimonials.review",
-          "Testimonials.designation",
-          "Testimonials.company_name",
-          "Testimonials.rating",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -50,17 +52,19 @@
           "Services.name",
           "Services.description",
           "Services.hoverDescription",
-          "Testimonials.name",
-          "Testimonials.review",
-          "Testimonials.designation",
-          "Testimonials.company_name",
-          "Testimonials.rating",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -75,17 +79,19 @@
           "Services.name",
           "Services.description",
           "Services.hoverDescription",
-          "Testimonials.name",
-          "Testimonials.review",
-          "Testimonials.designation",
-          "Testimonials.company_name",
-          "Testimonials.rating",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -103,14 +109,16 @@
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
-          "Testimonial.name",
-          "Testimonial.review",
-          "Testimonial.designation",
-          "Testimonial.company_name",
-          "Testimonial.rating",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -140,14 +148,16 @@
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
-          "Testimonial.name",
-          "Testimonial.review",
-          "Testimonial.designation",
-          "Testimonial.company_name",
-          "Testimonial.rating",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -165,14 +175,16 @@
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
-          "Testimonial.name",
-          "Testimonial.review",
-          "Testimonial.designation",
-          "Testimonial.company_name",
-          "Testimonial.rating",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -190,14 +202,16 @@
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
-          "Testimonials.name",
-          "Testimonials.review",
-          "Testimonials.designation",
-          "Testimonials.company_name",
-          "Testimonials.rating",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -227,14 +241,16 @@
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
-          "Testimonials.name",
-          "Testimonials.review",
-          "Testimonials.designation",
-          "Testimonials.company_name",
-          "Testimonials.rating",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -252,14 +268,16 @@
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
-          "Testimonials.name",
-          "Testimonials.review",
-          "Testimonials.designation",
-          "Testimonials.company_name",
-          "Testimonials.rating",
           "About.title",
           "About.description",
-          "About.aboutList.item"
+          "About.aboutList.item",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -277,11 +295,6 @@
           "ourSolutions.title",
           "ourSolutions.description",
           "ourSolutions.personalAgency.item",
-          "Testimonial.name",
-          "Testimonial.review",
-          "Testimonial.designation",
-          "Testimonial.company_name",
-          "Testimonial.rating",
           "ourStrategy.title",
           "ourStrategy.steps.title",
           "ourStrategy.steps.strategy_step_list.item",
@@ -297,7 +310,14 @@
           "howItWorks.title",
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
-          "howItWorks.working_steps.hoverDescription"
+          "howItWorks.working_steps.hoverDescription",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -327,11 +347,6 @@
           "ourSolutions.title",
           "ourSolutions.description",
           "ourSolutions.personalAgency.item",
-          "Testimonial.name",
-          "Testimonial.review",
-          "Testimonial.designation",
-          "Testimonial.company_name",
-          "Testimonial.rating",
           "ourStrategy.title",
           "ourStrategy.steps.title",
           "ourStrategy.steps.strategy_step_list.item",
@@ -347,7 +362,14 @@
           "howItWorks.title",
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
-          "howItWorks.working_steps.hoverDescription"
+          "howItWorks.working_steps.hoverDescription",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -365,11 +387,6 @@
           "ourSolutions.title",
           "ourSolutions.description",
           "ourSolutions.personalAgency.item",
-          "Testimonial.name",
-          "Testimonial.review",
-          "Testimonial.designation",
-          "Testimonial.company_name",
-          "Testimonial.rating",
           "ourStrategy.title",
           "ourStrategy.steps.title",
           "ourStrategy.steps.strategy_step_list.item",
@@ -385,7 +402,14 @@
           "howItWorks.title",
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
-          "howItWorks.working_steps.hoverDescription"
+          "howItWorks.working_steps.hoverDescription",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []

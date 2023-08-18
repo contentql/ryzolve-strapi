@@ -48,20 +48,6 @@
           "sortable": false
         }
       },
-      "Testimonials": {
-        "edit": {
-          "label": "Testimonials",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testimonials",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "Solutions": {
         "edit": {
           "label": "Solutions",
@@ -86,6 +72,20 @@
         },
         "list": {
           "label": "About",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Testimonial": {
+        "edit": {
+          "label": "Testimonial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Testimonial",
           "searchable": false,
           "sortable": false
         }
@@ -124,7 +124,7 @@
         "id",
         "Hero",
         "Services",
-        "Testimonials"
+        "Solutions"
       ],
       "edit": [
         [
@@ -141,12 +141,6 @@
         ],
         [
           {
-            "name": "Testimonials",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "Solutions",
             "size": 12
           }
@@ -154,6 +148,12 @@
         [
           {
             "name": "About",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Testimonial",
             "size": 12
           }
         ]
