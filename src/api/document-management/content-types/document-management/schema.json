@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "document_managements",
+  "info": {
+    "singularName": "document-management",
+    "pluralName": "document-managements",
+    "displayName": "Document Management"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.title-subtitle"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list-of-services"
+    },
+    "Solutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.our-solutions"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials.testimonials"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.about"
+    }
+  }
+}

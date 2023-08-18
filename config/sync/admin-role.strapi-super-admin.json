@@ -15,7 +15,11 @@
           "services.hoverDescription",
           "ourSolutions.title",
           "ourSolutions.description",
-          "ourSolutions.personalAgency.item"
+          "ourSolutions.personalAgency.item",
+          "Testimonial.name",
+          "Testimonial.review",
+          "Testimonial.designation",
+          "Testimonial.company_name"
         ]
       },
       "conditions": []
@@ -44,7 +48,11 @@
           "services.hoverDescription",
           "ourSolutions.title",
           "ourSolutions.description",
-          "ourSolutions.personalAgency.item"
+          "ourSolutions.personalAgency.item",
+          "Testimonial.name",
+          "Testimonial.review",
+          "Testimonial.designation",
+          "Testimonial.company_name"
         ]
       },
       "conditions": []
@@ -61,7 +69,11 @@
           "services.hoverDescription",
           "ourSolutions.title",
           "ourSolutions.description",
-          "ourSolutions.personalAgency.item"
+          "ourSolutions.personalAgency.item",
+          "Testimonial.name",
+          "Testimonial.review",
+          "Testimonial.designation",
+          "Testimonial.company_name"
         ]
       },
       "conditions": []
