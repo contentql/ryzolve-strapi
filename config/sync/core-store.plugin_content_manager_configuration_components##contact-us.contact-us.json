@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "phone",
-      "defaultSortBy": "phone",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,8 +16,8 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": false,
-          "sortable": false
+          "searchable": true,
+          "sortable": true
         }
       },
       "address": {

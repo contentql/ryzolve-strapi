@@ -62,20 +62,6 @@
           "sortable": false
         }
       },
-      "Testimonial": {
-        "edit": {
-          "label": "Testimonial",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testimonial",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "About": {
         "edit": {
           "label": "About",
@@ -86,6 +72,20 @@
         },
         "list": {
           "label": "About",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Testimonial": {
+        "edit": {
+          "label": "Testimonial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Testimonial",
           "searchable": false,
           "sortable": false
         }
@@ -147,13 +147,13 @@
         ],
         [
           {
-            "name": "Testimonial",
+            "name": "About",
             "size": 12
           }
         ],
         [
           {
-            "name": "About",
+            "name": "Testimonial",
             "size": 12
           }
         ]
