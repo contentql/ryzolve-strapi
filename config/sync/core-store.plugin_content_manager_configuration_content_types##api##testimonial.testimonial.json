@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_components::services.list-of-services",
+  "key": "plugin_content_manager_configuration_content_types::api::testimonial.testimonial",
   "value": {
-    "uid": "services.list-of-services",
+    "uid": "api::testimonial.testimonial",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "name",
-      "defaultSortBy": "name",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,48 +16,48 @@
         "edit": {},
         "list": {
           "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Testimonial": {
+        "edit": {
+          "label": "Testimonial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Testimonial",
           "searchable": false,
           "sortable": false
         }
       },
-      "name": {
+      "createdAt": {
         "edit": {
-          "label": "name",
+          "label": "createdAt",
           "description": "",
           "placeholder": "",
-          "visible": true,
+          "visible": false,
           "editable": true
         },
         "list": {
-          "label": "name",
+          "label": "createdAt",
           "searchable": true,
           "sortable": true
         }
       },
-      "description": {
+      "updatedAt": {
         "edit": {
-          "label": "description",
+          "label": "updatedAt",
           "description": "",
           "placeholder": "",
-          "visible": true,
+          "visible": false,
           "editable": true
         },
         "list": {
-          "label": "description",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "hoverDescription": {
-        "edit": {
-          "label": "hoverDescription",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "hoverDescription",
+          "label": "updatedAt",
           "searchable": true,
           "sortable": true
         }
@@ -66,30 +66,19 @@
     "layouts": {
       "list": [
         "id",
-        "name",
-        "description",
-        "hoverDescription"
+        "Testimonial",
+        "createdAt",
+        "updatedAt"
       ],
       "edit": [
         [
           {
-            "name": "name",
-            "size": 6
-          },
-          {
-            "name": "description",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "hoverDescription",
-            "size": 6
+            "name": "Testimonial",
+            "size": 12
           }
         ]
       ]
-    },
-    "isComponent": true
+    }
   },
   "type": "object",
   "environment": null,

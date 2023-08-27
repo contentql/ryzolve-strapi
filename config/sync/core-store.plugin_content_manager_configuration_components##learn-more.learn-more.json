@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_components::how-it-works.how-it-works",
+  "key": "plugin_content_manager_configuration_components::learn-more.learn-more",
   "value": {
-    "uid": "how-it-works.how-it-works",
+    "uid": "learn-more.learn-more",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "title",
-      "defaultSortBy": "title",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,34 +16,20 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "title": {
-        "edit": {
-          "label": "title",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "title",
           "searchable": true,
           "sortable": true
         }
       },
-      "working_steps": {
+      "help": {
         "edit": {
-          "label": "working_steps",
+          "label": "help",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "working_steps",
+          "label": "help",
           "searchable": false,
           "sortable": false
         }
@@ -52,19 +38,12 @@
     "layouts": {
       "list": [
         "id",
-        "title",
-        "working_steps"
+        "help"
       ],
       "edit": [
         [
           {
-            "name": "title",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "working_steps",
+            "name": "help",
             "size": 12
           }
         ]

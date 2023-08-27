@@ -284,6 +284,66 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::footer.footer",
+      "properties": {
+        "fields": [
+          "NeedHelp.help.name",
+          "NeedHelp.help.link",
+          "LearnMore.help.name",
+          "LearnMore.help.link",
+          "ContactUs.address",
+          "ContactUs.email",
+          "ContactUs.phone"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::footer.footer",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::footer.footer",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::footer.footer",
+      "properties": {
+        "fields": [
+          "NeedHelp.help.name",
+          "NeedHelp.help.link",
+          "LearnMore.help.name",
+          "LearnMore.help.link",
+          "ContactUs.address",
+          "ContactUs.email",
+          "ContactUs.phone"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::footer.footer",
+      "properties": {
+        "fields": [
+          "NeedHelp.help.name",
+          "NeedHelp.help.link",
+          "LearnMore.help.name",
+          "LearnMore.help.link",
+          "ContactUs.address",
+          "ContactUs.email",
+          "ContactUs.phone"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
@@ -403,6 +463,159 @@
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
           "howItWorks.working_steps.hoverDescription",
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::service.service",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::service.service",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "Services.name",
+          "Services.description",
+          "Services.hoverDescription"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::social-media-link.social-media-link",
+      "properties": {
+        "fields": [
+          "socialMediaLinks.name",
+          "socialMediaLinks.link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::social-media-link.social-media-link",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::social-media-link.social-media-link",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::social-media-link.social-media-link",
+      "properties": {
+        "fields": [
+          "socialMediaLinks.name",
+          "socialMediaLinks.link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::social-media-link.social-media-link",
+      "properties": {
+        "fields": [
+          "socialMediaLinks.name",
+          "socialMediaLinks.link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::testimonial.testimonial",
+      "properties": {
+        "fields": [
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::testimonial.testimonial",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::testimonial.testimonial",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::testimonial.testimonial",
+      "properties": {
+        "fields": [
+          "Testimonial.title",
+          "Testimonial.description",
+          "Testimonial.testimonialListing.name",
+          "Testimonial.testimonialListing.review",
+          "Testimonial.testimonialListing.designation",
+          "Testimonial.testimonialListing.company_name",
+          "Testimonial.testimonialListing.rating"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::testimonial.testimonial",
+      "properties": {
+        "fields": [
           "Testimonial.title",
           "Testimonial.description",
           "Testimonial.testimonialListing.name",

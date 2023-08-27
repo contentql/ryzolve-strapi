@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_components::testimonials.testimonials",
+  "key": "plugin_content_manager_configuration_content_types::api::footer.footer",
   "value": {
-    "uid": "testimonials.testimonials",
+    "uid": "api::footer.footer",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "name",
-      "defaultSortBy": "name",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,76 +16,76 @@
         "edit": {},
         "list": {
           "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "NeedHelp": {
+        "edit": {
+          "label": "NeedHelp",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "NeedHelp",
           "searchable": false,
           "sortable": false
         }
       },
-      "name": {
+      "LearnMore": {
         "edit": {
-          "label": "name",
+          "label": "LearnMore",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "name",
+          "label": "LearnMore",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ContactUs": {
+        "edit": {
+          "label": "ContactUs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ContactUs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
           "searchable": true,
           "sortable": true
         }
       },
-      "review": {
+      "updatedAt": {
         "edit": {
-          "label": "review",
+          "label": "updatedAt",
           "description": "",
           "placeholder": "",
-          "visible": true,
+          "visible": false,
           "editable": true
         },
         "list": {
-          "label": "review",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "designation": {
-        "edit": {
-          "label": "designation",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "designation",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "company_name": {
-        "edit": {
-          "label": "company_name",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "company_name",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "rating": {
-        "edit": {
-          "label": "rating",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "rating",
+          "label": "updatedAt",
           "searchable": true,
           "sortable": true
         }
@@ -94,40 +94,31 @@
     "layouts": {
       "list": [
         "id",
-        "name",
-        "review",
-        "designation"
+        "NeedHelp",
+        "LearnMore",
+        "ContactUs"
       ],
       "edit": [
         [
           {
-            "name": "name",
-            "size": 6
-          },
-          {
-            "name": "review",
-            "size": 6
+            "name": "NeedHelp",
+            "size": 12
           }
         ],
         [
           {
-            "name": "designation",
-            "size": 6
-          },
-          {
-            "name": "company_name",
-            "size": 6
+            "name": "LearnMore",
+            "size": 12
           }
         ],
         [
           {
-            "name": "rating",
-            "size": 6
+            "name": "ContactUs",
+            "size": 12
           }
         ]
       ]
-    },
-    "isComponent": true
+    }
   },
   "type": "object",
   "environment": null,

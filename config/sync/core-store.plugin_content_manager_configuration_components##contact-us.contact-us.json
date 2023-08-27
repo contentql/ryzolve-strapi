@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_components::services.list-of-services",
+  "key": "plugin_content_manager_configuration_components::contact-us.contact-us",
   "value": {
-    "uid": "services.list-of-services",
+    "uid": "contact-us.contact-us",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "name",
-      "defaultSortBy": "name",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,48 +16,48 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "name": {
-        "edit": {
-          "label": "name",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "name",
           "searchable": true,
           "sortable": true
         }
       },
-      "description": {
+      "address": {
         "edit": {
-          "label": "description",
+          "label": "address",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "description",
+          "label": "address",
           "searchable": true,
           "sortable": true
         }
       },
-      "hoverDescription": {
+      "email": {
         "edit": {
-          "label": "hoverDescription",
+          "label": "email",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "hoverDescription",
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "phone": {
+        "edit": {
+          "label": "phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "phone",
           "searchable": true,
           "sortable": true
         }
@@ -66,25 +66,25 @@
     "layouts": {
       "list": [
         "id",
-        "name",
-        "description",
-        "hoverDescription"
+        "address",
+        "email",
+        "phone"
       ],
       "edit": [
         [
           {
-            "name": "name",
+            "name": "address",
             "size": 6
           },
           {
-            "name": "description",
+            "name": "email",
             "size": 6
           }
         ],
         [
           {
-            "name": "hoverDescription",
-            "size": 6
+            "name": "phone",
+            "size": 4
           }
         ]
       ]
