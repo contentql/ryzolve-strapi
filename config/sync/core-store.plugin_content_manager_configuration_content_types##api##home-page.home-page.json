@@ -62,6 +62,20 @@
           "sortable": false
         }
       },
+      "Testimonial": {
+        "edit": {
+          "label": "Testimonial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Testimonial",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "ourStrategy": {
         "edit": {
           "label": "ourStrategy",
@@ -118,20 +132,6 @@
           "sortable": false
         }
       },
-      "Testimonial": {
-        "edit": {
-          "label": "Testimonial",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testimonial",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -164,9 +164,9 @@
     "layouts": {
       "list": [
         "id",
-        "createdAt",
         "hero",
-        "services"
+        "services",
+        "ourSolutions"
       ],
       "edit": [
         [
@@ -184,6 +184,12 @@
         [
           {
             "name": "ourSolutions",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Testimonial",
             "size": 12
           }
         ],
@@ -208,12 +214,6 @@
         [
           {
             "name": "howItWorks",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Testimonial",
             "size": 12
           }
         ]
