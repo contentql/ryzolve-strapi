@@ -17,11 +17,6 @@
       "repeatable": false,
       "component": "hero.title-subtitle"
     },
-    "services": {
-      "type": "component",
-      "repeatable": true,
-      "component": "services.list-of-services"
-    },
     "Solutions": {
       "type": "component",
       "repeatable": false,
@@ -31,11 +26,6 @@
       "type": "component",
       "repeatable": true,
       "component": "about.about"
-    },
-    "Testimonial": {
-      "type": "component",
-      "repeatable": false,
-      "component": "testimonial-section.testimonial-section"
     }
   }
 }

@@ -4,6 +4,15 @@
   "type": "authenticated",
   "permissions": [
     {
+      "action": "api::home-page.home-page.delete"
+    },
+    {
+      "action": "api::home-page.home-page.find"
+    },
+    {
+      "action": "api::home-page.home-page.update"
+    },
+    {
       "action": "plugin::users-permissions.auth.changePassword"
     },
     {

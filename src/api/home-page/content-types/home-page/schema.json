@@ -18,12 +18,6 @@
       "repeatable": false,
       "component": "hero.title-subtitle"
     },
-    "services": {
-      "displayName": "list of services",
-      "type": "component",
-      "repeatable": true,
-      "component": "services.list-of-services"
-    },
     "ourSolutions": {
       "displayName": "our solutions",
       "type": "component",
@@ -35,11 +29,6 @@
       "repeatable": false,
       "component": "strategy.strategy"
     },
-    "pricing": {
-      "type": "component",
-      "repeatable": true,
-      "component": "pricing.pricing"
-    },
     "aboutUs": {
       "type": "component",
       "repeatable": false,
@@ -49,11 +38,6 @@
       "type": "component",
       "repeatable": false,
       "component": "how-it-works.how-it-works"
-    },
-    "Testimonial": {
-      "type": "component",
-      "repeatable": false,
-      "component": "testimonial-section.testimonial-section"
     }
   }
 }

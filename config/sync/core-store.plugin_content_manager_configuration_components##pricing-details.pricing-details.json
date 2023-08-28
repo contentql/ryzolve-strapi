@@ -81,21 +81,20 @@
       "list": [
         "id",
         "monthly_price",
-        "yearly_price",
-        "plan_name"
+        "yearly_price"
       ],
       "edit": [
         [
           {
             "name": "monthly_price",
             "size": 4
-          },
-          {
-            "name": "yearly_price",
-            "size": 4
           }
         ],
         [
+          {
+            "name": "yearly_price",
+            "size": 4
+          },
           {
             "name": "plan_name",
             "size": 6

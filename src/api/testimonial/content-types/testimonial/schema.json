@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "testimonials",
   "info": {
     "singularName": "testimonial",
@@ -11,9 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Testimonial": {
+    "testimonial": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "testimonial-section.testimonial-section"
     }
   }
