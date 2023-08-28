@@ -4,7 +4,37 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::claims-and-billing.claims-and-billing.find"
+    },
+    {
+      "action": "api::compliance-regulation.compliance-regulation.find"
+    },
+    {
+      "action": "api::document-management.document-management.find"
+    },
+    {
+      "action": "api::footer.footer.find"
+    },
+    {
       "action": "api::home-page.home-page.find"
+    },
+    {
+      "action": "api::pricing.pricing.find"
+    },
+    {
+      "action": "api::service.service.find"
+    },
+    {
+      "action": "api::service.service.findOne"
+    },
+    {
+      "action": "api::social-media-link.social-media-link.find"
+    },
+    {
+      "action": "api::social-media-link.social-media-link.findOne"
+    },
+    {
+      "action": "api::testimonial.testimonial.find"
     },
     {
       "action": "plugin::users-permissions.auth.callback"
