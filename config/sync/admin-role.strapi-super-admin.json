@@ -10,22 +10,12 @@
         "fields": [
           "Hero.title",
           "Hero.subtitle",
-          "Services.name",
-          "Services.description",
-          "Services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -49,22 +39,12 @@
         "fields": [
           "Hero.title",
           "Hero.subtitle",
-          "Services.name",
-          "Services.description",
-          "Services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -76,22 +56,12 @@
         "fields": [
           "Hero.title",
           "Hero.subtitle",
-          "Services.name",
-          "Services.description",
-          "Services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -103,22 +73,12 @@
         "fields": [
           "Hero.title",
           "Hero.subtitle",
-          "Services.name",
-          "Services.description",
-          "Services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -142,22 +102,12 @@
         "fields": [
           "Hero.title",
           "Hero.subtitle",
-          "Services.name",
-          "Services.description",
-          "Services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -169,22 +119,12 @@
         "fields": [
           "Hero.title",
           "Hero.subtitle",
-          "Services.name",
-          "Services.description",
-          "Services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -196,22 +136,12 @@
         "fields": [
           "hero.title",
           "hero.subtitle",
-          "services.name",
-          "services.description",
-          "services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -235,22 +165,12 @@
         "fields": [
           "hero.title",
           "hero.subtitle",
-          "services.name",
-          "services.description",
-          "services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -262,22 +182,12 @@
         "fields": [
           "hero.title",
           "hero.subtitle",
-          "services.name",
-          "services.description",
-          "services.hoverDescription",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
           "About.title",
           "About.description",
-          "About.aboutList.item",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "About.aboutList.item"
         ]
       },
       "conditions": []
@@ -349,9 +259,6 @@
         "fields": [
           "hero.title",
           "hero.subtitle",
-          "services.name",
-          "services.description",
-          "services.hoverDescription",
           "ourSolutions.title",
           "ourSolutions.description",
           "ourSolutions.personalAgency.item",
@@ -359,25 +266,13 @@
           "ourStrategy.steps.title",
           "ourStrategy.steps.strategy_step_list.item",
           "ourStrategy.steps.strategy_step_image",
-          "pricing.title",
-          "pricing.plans.monthly_price",
-          "pricing.plans.yearly_price",
-          "pricing.plans.plan_name",
-          "pricing.plans.plan_features.item",
           "aboutUs.title",
           "aboutUs.description",
           "aboutUs.aboutList.item",
           "howItWorks.title",
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
-          "howItWorks.working_steps.hoverDescription",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "howItWorks.working_steps.hoverDescription"
         ]
       },
       "conditions": []
@@ -401,9 +296,6 @@
         "fields": [
           "hero.title",
           "hero.subtitle",
-          "services.name",
-          "services.description",
-          "services.hoverDescription",
           "ourSolutions.title",
           "ourSolutions.description",
           "ourSolutions.personalAgency.item",
@@ -411,25 +303,13 @@
           "ourStrategy.steps.title",
           "ourStrategy.steps.strategy_step_list.item",
           "ourStrategy.steps.strategy_step_image",
-          "pricing.title",
-          "pricing.plans.monthly_price",
-          "pricing.plans.yearly_price",
-          "pricing.plans.plan_name",
-          "pricing.plans.plan_features.item",
           "aboutUs.title",
           "aboutUs.description",
           "aboutUs.aboutList.item",
           "howItWorks.title",
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
-          "howItWorks.working_steps.hoverDescription",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "howItWorks.working_steps.hoverDescription"
         ]
       },
       "conditions": []
@@ -441,9 +321,6 @@
         "fields": [
           "hero.title",
           "hero.subtitle",
-          "services.name",
-          "services.description",
-          "services.hoverDescription",
           "ourSolutions.title",
           "ourSolutions.description",
           "ourSolutions.personalAgency.item",
@@ -451,25 +328,67 @@
           "ourStrategy.steps.title",
           "ourStrategy.steps.strategy_step_list.item",
           "ourStrategy.steps.strategy_step_image",
-          "pricing.title",
-          "pricing.plans.monthly_price",
-          "pricing.plans.yearly_price",
-          "pricing.plans.plan_name",
-          "pricing.plans.plan_features.item",
           "aboutUs.title",
           "aboutUs.description",
           "aboutUs.aboutList.item",
           "howItWorks.title",
           "howItWorks.working_steps.name",
           "howItWorks.working_steps.description",
-          "howItWorks.working_steps.hoverDescription",
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "howItWorks.working_steps.hoverDescription"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pricing.pricing",
+      "properties": {
+        "fields": [
+          "pricing.title",
+          "pricing.plans.monthly_price",
+          "pricing.plans.yearly_price",
+          "pricing.plans.plan_name",
+          "pricing.plans.plan_features.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::pricing.pricing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::pricing.pricing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pricing.pricing",
+      "properties": {
+        "fields": [
+          "pricing.title",
+          "pricing.plans.monthly_price",
+          "pricing.plans.yearly_price",
+          "pricing.plans.plan_name",
+          "pricing.plans.plan_features.item"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pricing.pricing",
+      "properties": {
+        "fields": [
+          "pricing.title",
+          "pricing.plans.monthly_price",
+          "pricing.plans.yearly_price",
+          "pricing.plans.plan_name",
+          "pricing.plans.plan_features.item"
         ]
       },
       "conditions": []
@@ -572,13 +491,13 @@
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "testimonial.title",
+          "testimonial.description",
+          "testimonial.testimonialListing.name",
+          "testimonial.testimonialListing.review",
+          "testimonial.testimonialListing.designation",
+          "testimonial.testimonialListing.company_name",
+          "testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -600,13 +519,13 @@
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "testimonial.title",
+          "testimonial.description",
+          "testimonial.testimonialListing.name",
+          "testimonial.testimonialListing.review",
+          "testimonial.testimonialListing.designation",
+          "testimonial.testimonialListing.company_name",
+          "testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []
@@ -616,13 +535,13 @@
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
-          "Testimonial.title",
-          "Testimonial.description",
-          "Testimonial.testimonialListing.name",
-          "Testimonial.testimonialListing.review",
-          "Testimonial.testimonialListing.designation",
-          "Testimonial.testimonialListing.company_name",
-          "Testimonial.testimonialListing.rating"
+          "testimonial.title",
+          "testimonial.description",
+          "testimonial.testimonialListing.name",
+          "testimonial.testimonialListing.review",
+          "testimonial.testimonialListing.designation",
+          "testimonial.testimonialListing.company_name",
+          "testimonial.testimonialListing.rating"
         ]
       },
       "conditions": []

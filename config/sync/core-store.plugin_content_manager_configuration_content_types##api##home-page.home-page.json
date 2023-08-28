@@ -34,20 +34,6 @@
           "sortable": false
         }
       },
-      "services": {
-        "edit": {
-          "label": "services",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "services",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "ourSolutions": {
         "edit": {
           "label": "ourSolutions",
@@ -62,20 +48,6 @@
           "sortable": false
         }
       },
-      "Testimonial": {
-        "edit": {
-          "label": "Testimonial",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testimonial",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "ourStrategy": {
         "edit": {
           "label": "ourStrategy",
@@ -86,20 +58,6 @@
         },
         "list": {
           "label": "ourStrategy",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "pricing": {
-        "edit": {
-          "label": "pricing",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "pricing",
           "searchable": false,
           "sortable": false
         }
@@ -164,20 +122,13 @@
     "layouts": {
       "list": [
         "id",
-        "hero",
-        "services",
-        "ourSolutions"
+        "createdAt",
+        "hero"
       ],
       "edit": [
         [
           {
             "name": "hero",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "services",
             "size": 12
           }
         ],
@@ -189,19 +140,7 @@
         ],
         [
           {
-            "name": "Testimonial",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "ourStrategy",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "pricing",
             "size": 12
           }
         ],

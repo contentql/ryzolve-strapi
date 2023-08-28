@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::compliance-regulation.compliance-regulation",
+  "key": "plugin_content_manager_configuration_content_types::api::pricing.pricing",
   "value": {
-    "uid": "api::compliance-regulation.compliance-regulation",
+    "uid": "api::pricing.pricing",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -20,44 +20,16 @@
           "sortable": true
         }
       },
-      "Hero": {
+      "pricing": {
         "edit": {
-          "label": "Hero",
+          "label": "pricing",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Hero",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "Solutions": {
-        "edit": {
-          "label": "Solutions",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Solutions",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "About": {
-        "edit": {
-          "label": "About",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "About",
+          "label": "pricing",
           "searchable": false,
           "sortable": false
         }
@@ -94,25 +66,14 @@
     "layouts": {
       "list": [
         "id",
-        "Hero",
-        "Solutions"
+        "pricing",
+        "createdAt",
+        "updatedAt"
       ],
       "edit": [
         [
           {
-            "name": "Hero",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Solutions",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "About",
+            "name": "pricing",
             "size": 12
           }
         ]

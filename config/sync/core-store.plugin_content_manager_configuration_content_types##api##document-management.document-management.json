@@ -34,20 +34,6 @@
           "sortable": false
         }
       },
-      "services": {
-        "edit": {
-          "label": "services",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "services",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "Solutions": {
         "edit": {
           "label": "Solutions",
@@ -72,20 +58,6 @@
         },
         "list": {
           "label": "About",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "Testimonial": {
-        "edit": {
-          "label": "Testimonial",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Testimonial",
           "searchable": false,
           "sortable": false
         }
@@ -123,19 +95,12 @@
       "list": [
         "id",
         "hero",
-        "services",
         "Solutions"
       ],
       "edit": [
         [
           {
             "name": "hero",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "services",
             "size": 12
           }
         ],
@@ -148,12 +113,6 @@
         [
           {
             "name": "About",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "Testimonial",
             "size": 12
           }
         ]

@@ -20,16 +20,16 @@
           "sortable": true
         }
       },
-      "Testimonial": {
+      "testimonial": {
         "edit": {
-          "label": "Testimonial",
+          "label": "testimonial",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "Testimonial",
+          "label": "testimonial",
           "searchable": false,
           "sortable": false
         }
@@ -66,14 +66,14 @@
     "layouts": {
       "list": [
         "id",
-        "Testimonial",
         "createdAt",
-        "updatedAt"
+        "updatedAt",
+        "testimonial"
       ],
       "edit": [
         [
           {
-            "name": "Testimonial",
+            "name": "testimonial",
             "size": 12
           }
         ]
