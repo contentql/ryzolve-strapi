@@ -134,8 +134,8 @@
       "subject": "api::document-management.document-management",
       "properties": {
         "fields": [
-          "hero.title",
-          "hero.subtitle",
+          "Hero.title",
+          "Hero.subtitle",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
@@ -163,8 +163,8 @@
       "subject": "api::document-management.document-management",
       "properties": {
         "fields": [
-          "hero.title",
-          "hero.subtitle",
+          "Hero.title",
+          "Hero.subtitle",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",
@@ -180,8 +180,8 @@
       "subject": "api::document-management.document-management",
       "properties": {
         "fields": [
-          "hero.title",
-          "hero.subtitle",
+          "Hero.title",
+          "Hero.subtitle",
           "Solutions.title",
           "Solutions.description",
           "Solutions.personalAgency.item",

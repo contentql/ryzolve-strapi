@@ -20,16 +20,16 @@
           "sortable": true
         }
       },
-      "hero": {
+      "Hero": {
         "edit": {
-          "label": "hero",
+          "label": "Hero",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "hero",
+          "label": "Hero",
           "searchable": false,
           "sortable": false
         }
@@ -94,16 +94,10 @@
     "layouts": {
       "list": [
         "id",
-        "hero",
-        "Solutions"
+        "Solutions",
+        "Hero"
       ],
       "edit": [
-        [
-          {
-            "name": "hero",
-            "size": 12
-          }
-        ],
         [
           {
             "name": "Solutions",
@@ -113,6 +107,12 @@
         [
           {
             "name": "About",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Hero",
             "size": 12
           }
         ]
