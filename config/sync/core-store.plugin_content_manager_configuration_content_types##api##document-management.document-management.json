@@ -92,12 +92,13 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Solutions",
-        "Hero"
-      ],
       "edit": [
+        [
+          {
+            "name": "Hero",
+            "size": 12
+          }
+        ],
         [
           {
             "name": "Solutions",
@@ -109,13 +110,12 @@
             "name": "About",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "Hero",
-            "size": 12
-          }
         ]
+      ],
+      "list": [
+        "id",
+        "Solutions",
+        "Hero"
       ]
     }
   },
