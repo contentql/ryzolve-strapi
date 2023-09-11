@@ -8,7 +8,8 @@
     "start": "config-sync import --yes && strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "cs": "config-sync"
+    "cs": "config-sync",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@strapi/plugin-graphql": "^4.13.1",
@@ -17,7 +18,9 @@
     "@strapi/provider-email-sendgrid": "^4.13.4",
     "@strapi/provider-upload-cloudinary": "4.13.1",
     "@strapi/strapi": "4.13.1",
+    "patch-package": "^8.0.0",
     "pg": "8.8.0",
+    "postinstall-postinstall": "^2.1.0",
     "strapi-plugin-config-sync": "^1.1.1",
     "strapi-tiptap-editor": "^0.9.12"
   },
