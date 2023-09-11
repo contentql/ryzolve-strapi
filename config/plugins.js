@@ -30,6 +30,22 @@ module.exports = ({ env }) => ({
     },
   },
 
+  email: {
+    config: {
+      provider: "sendgrid",
+      providerOptions: {
+        apiKey: env(
+          "SENDGRID_API_KEY",
+          "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"
+        ),
+      },
+      settings: {
+        defaultFrom: "akhil@contentql.io",
+        defaultReplyTo: "tjezba@gmail.com",
+      },
+    },
+  },
+
   // upload: {
   //   config: {
   //     providerOptions: {

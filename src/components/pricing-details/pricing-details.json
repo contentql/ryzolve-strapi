@@ -7,11 +7,11 @@
   "options": {},
   "attributes": {
     "monthly_price": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "yearly_price": {
-      "type": "integer",
+      "type": "float",
       "required": true
     },
     "plan_name": {
