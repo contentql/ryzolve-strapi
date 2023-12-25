@@ -124,9 +124,9 @@
     "layouts": {
       "list": [
         "id",
-        "Solutions",
         "Hero",
-        "createdBy"
+        "Solutions",
+        "About"
       ],
       "edit": [
         [

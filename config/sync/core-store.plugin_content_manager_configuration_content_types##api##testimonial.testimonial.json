@@ -96,9 +96,9 @@
     "layouts": {
       "list": [
         "id",
+        "testimonial",
         "createdAt",
-        "updatedAt",
-        "testimonial"
+        "updatedAt"
       ],
       "edit": [
         [

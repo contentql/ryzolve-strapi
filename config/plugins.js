@@ -1,9 +1,40 @@
 module.exports = ({ env }) => ({
+  // ...
+
   "users-permissions": {
     config: {
-      jwtSecret: env("JWT_SECRET", "Ig1HNbz5Z9M+SUHTr/ltug=="),
+      jwtSecret: env("JWT_SECRET"),
+      register: {
+        allowedFields: ["image", "phone", "agency", "country", "city"],
+      },
     },
   },
+  graphql: {
+    config: {
+      endpoint: "/graphql",
+      shadowCRUD: true,
+      playgroundAlways: false,
+      depthLimit: 9,
+      amountLimit: 100,
+      apolloServer: {
+        tracing: false,
+        introspection: true,
+      },
+    },
+  },
+  email: {
+    config: {
+      provider: "sendgrid",
+      providerOptions: {
+        apiKey: env("SENDGRID_API_KEY"),
+      },
+      settings: {
+        defaultFrom: "akhil@contentql.io",
+        defaultReplyTo: "akhil@contentql.io",
+      },
+    },
+  },
+
   upload: {
     config: {
       provider: "cloudinary",
@@ -14,56 +45,10 @@ module.exports = ({ env }) => ({
       },
       actionOptions: {
         upload: {},
+        uploadStream: {},
         delete: {},
       },
     },
   },
-  graphql: {
-    config: {
-      endpoint: "/graphql",
-      shadowCRUD: true,
-      playgroundAlways: false,
-      apolloServer: {
-        tracing: false,
-        introspection: true,
-      },
-    },
-  },
-
-  email: {
-    config: {
-      provider: "sendgrid",
-      providerOptions: {
-        apiKey: env(
-          "SENDGRID_API_KEY",
-          "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"
-        ),
-      },
-      settings: {
-        defaultFrom: "akhil@contentql.io",
-        defaultReplyTo: "tjezba@gmail.com",
-      },
-    },
-  },
-
-  // upload: {
-  //   config: {
-  //     providerOptions: {
-  //       localServer: {
-  //         maxage: 300000,
-  //       },
-  //     },
-  //   },
-  // },
-  // slugify: {
-  //   enabled: true,
-  //   config: {
-  //     contentTypes: {
-  //       blog: {
-  //         field: "slug",
-  //         references: "title",
-  //       },
-  //     },
-  //   },
-  // },
+  // ...
 });

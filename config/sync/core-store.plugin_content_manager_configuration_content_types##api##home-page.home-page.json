@@ -152,9 +152,9 @@
     "layouts": {
       "list": [
         "id",
-        "createdAt",
         "hero",
-        "createdBy"
+        "ourSolutions",
+        "ourStrategy"
       ],
       "edit": [
         [
